@@ -1,6 +1,6 @@
 {
 	"name": "kdyby/doctrine-search",
-	"type": "library",
+	"type": "library",     
 	"description": "Integration of Doctrine Search and Elastica into Nette Framework",
 	"keywords": ["nette", "kdyby", "elasticsearch", "search", "elastic", "es", "doctrine", "orm"],
 	"homepage": "http://kdyby.org",
@@ -17,7 +17,9 @@
 		"issues": "https://github.com/Kdyby/DoctrineSearch/issues"
 	},
 	"require": {
-		"nette/nette": "~2.1@dev",
+    "nette/di": "~2.4",
+    "nette/utils": "~2.4",
+    "nette/php-generator": "3.*",
 		"kdyby/doctrine-cache": "*",
 		"kdyby/elastic-search": "@dev",
 		"doctrine/orm": "~2.4",
